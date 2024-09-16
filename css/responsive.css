@@ -1,0 +1,1016 @@
+/* ===================== Devices up to 1024px ==================== */
+
+@media screen and (max-width: 1024px) {
+    .banner .container .row .heading {
+        height: 80%;
+        width: 100%;
+        margin: 0;
+    }
+
+    .banner .container .row .heading .sub-head{
+        font-size: 20px !important;
+    }
+
+    .banner .container .row .heading h1{
+        font-size: 70px;
+    }
+    .banner .container .row .heading p{
+        width: 40%;
+    }
+
+    .about {
+        height: 700px;
+        overflow: hidden;
+    }
+
+    .about .container .row {
+        display: flex;
+        /* flex-direction: column; */
+    }
+
+    .about .container .row .interested {
+        width: 50%;
+        height: 100%;
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/bg-02-free-img.jpg) no-repeat !important;
+        background-size: cover !important;
+        background-position: center center;
+    }
+
+    .about .container .row .heading {
+        width: 50%;
+        height: 60%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        padding: 25px !important; 
+    }
+
+    .about .container .row .interested h3 {
+        font-size: 20px !important;
+    }
+
+    .about .container .row .interested button {
+        padding: 14px 28px;
+        font-size: 14px;
+    }
+
+    .about .container .row .heading {
+        padding: 50px;
+    }
+
+    .about .container .row .heading h2 {
+        font-size: 70px !important;
+    }
+
+    .about .container .row .heading p.head {
+        font-size: 16px;
+    }
+
+    .about .container .row .heading p {
+        font-size: 15px;
+    }
+
+    .services .container .row .heading h2 {
+        font-size: 100px;
+    }
+
+    .portfolio .container .row .heading h2 {
+        font-size: 100px;
+    }
+
+    .portfolio .container .row .portfolio-part-2 .portfolio-card-layout {
+        height: 80%;
+    }
+
+    .contact .container .row {
+        padding-left: 20px;
+    }
+
+    .contact {
+        background-position-x: 25%;
+    }
+
+    .contact .container .row h2 {
+        font-size: 100px;
+    }
+
+    .contact .container .row button {
+        padding: 15px 30px;
+        font-size: 15px;
+    }
+}
+
+/* ===================== Devices up to 992px ==================== */
+
+@media screen and (max-width: 992px) {
+    .footer-container {
+        height: 550px;
+    }
+
+    .brand-details .contact-details .phone .details {
+        font-size: 16px;
+    }
+
+    .brand-details .contact-details .email .details {
+        font-size: 16px;
+    }
+
+    .brand-details .contact-button .head {
+        font-size: 20px;
+    }
+
+    .brand-details .contact-button button {
+        font-size: 14px;
+        padding: 15px 30px;
+    }
+
+    .brand-details .footer-brand-logo figure {
+        width: 180px;
+        height: 70px;
+    }
+
+    .brand-details .footer-brand-logo p {
+        font-size: 13px;
+        width: 90%;
+    }
+}
+
+/* ===================== Devices up to 768px ==================== */
+
+@media screen and (max-width: 768px) {
+    .navbar {
+        width: 100% !important;
+        margin: 0px !important;
+        height: 90px !important;
+    }
+
+    .navbar .container {
+        position: relative !important;
+    }
+
+    .navbar .container .logo {
+        width: 30% !important;
+    }
+
+    .navbar .container .logo figure {
+        height: 100% !important;
+        width: 100% !important;
+        padding: 10px 0 !important;
+    }
+
+    .navbar .container .logo figure img {
+        width: 100% !important;
+        padding: 0 !important;
+    }
+
+    .navbar .container .nav-menu {
+        width: 50%;
+        display: none;
+    }
+
+    .navbar .container .nav-menu ul {
+        width: 100%;
+        height: auto;
+        position: absolute !important;
+        display: block !important;
+        top: 100px !important;
+        left: 0;
+        background-color: white;
+    }
+
+    .navbar .container .nav-menu ul li {
+        text-align: left;
+        width: 100%;
+        padding-bottom: 25px;
+    }
+
+    .navbar .container .nav-menu ul li a {
+        width: 100%;
+    }
+
+    .navbar .container i {
+        width: 20%;
+    }
+
+    i.ico {
+        display: inline-block;
+        font-size: 20px;
+        width: 30px;
+        height: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #4A4B7C;
+    }
+
+    .banner {
+        width: 100%;
+        height: 700px;
+        background-position: center 0;
+        background-attachment: local;
+        background-size: 55%;
+        background-repeat: no-repeat;
+    }
+
+    .banner .container .row .heading {
+        width: 100%;
+        margin-top: 30% !important;
+    }
+
+    .banner .container .row .heading .sub-head {
+        font-size: 17px !important;
+        margin-bottom: 10px !important;
+    }
+
+    .banner .container .row .heading h1 {
+        font-size: 60px !important;
+    }
+
+    .banner .container .row .heading p {
+        width: 100% !important;
+        font-size: 14px;
+    }
+
+    .banner .container .row .heading button {
+        font-size: 14px;
+        padding: 15px 40px;
+    }
+
+    .about {
+        height: 700px;
+    }
+
+    .about .container .row {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .about .container .row .interested {
+        width: 100%;
+        height: 40%;
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/bg-02-free-img.jpg) 0 50% no-repeat !important;
+        background-size: 120% !important;
+    }
+
+    .about .container .row .heading {
+        width: 100%;
+        height: 60%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        padding: 40px;
+    }
+
+    .about .container .row .heading h2 {
+        font-size: 70px !important;
+    }
+
+    .about .container .row .heading p {
+        width: 100%;
+        font-size: 15px;
+    }
+
+    .services {
+        height: 800px;
+        padding: 0;
+    }
+
+    .services .container .row {
+        position: relative;
+    }
+
+    .services .container .row .serv-image figure img {
+        width: 35% !important;
+        margin-top: 0%;
+        margin-right: 15px;
+    }
+
+    .services .container .row .heading {
+        height: 20%;
+    }
+
+    .services .container .row .heading h2 {
+        font-size: 70px !important;
+        color: #4A4B7C;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .services .container .row .serv-part-2 {
+        width: 100%;
+        height: 70%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .services .container .row .serv-part-2 .serv-card-layout {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+    }
+
+    .services .container .row .serv-part-2 .serv-card-layout .row {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between !important;
+        align-items: center;
+    }
+
+    .services .container .row .serv-part-2 .serv-card-layout .row .serv-card {
+        width: 40%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+    }
+
+    .services .container .row .serv-part-2 .serv-card-layout .row .serv-card h3 {
+        width: 100%;
+        font-size: 25px;
+        color: #4A4B7C;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+
+    .services .container .row .serv-part-2 .serv-card-layout .row .serv-card p {
+        width: 100%;
+        color: #494949;
+        line-height: 1.5;
+        text-align: center;
+    }
+
+    .portfolio {
+        height: 700px;
+        padding: 50px 0;
+        background-size: 50%;
+        background-position: 20% 5%;
+    }
+
+    .portfolio .container .row {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .portfolio .container .row .heading {
+        height: 30%;
+    }
+
+    .portfolio .container .row .heading h2 {
+        font-size: 60px !important;
+    }
+
+    .portfolio .container .row .heading p.head {
+        font-size: 16px;
+    }
+
+    .portfolio .container .row .portfolio-part-2 {
+        height: 70%;
+    }
+
+    .portfolio .container .row .portfolio-part-2 .portfolio-card-layout {
+        height: 90%;
+    }
+
+    .swiper {
+        width: 100% !important;
+        height: 80% !important;
+    }
+
+    .swiper-slide {
+        width: 30% !important;
+    }
+
+    .contact {
+        height: 700px;
+        background-size: 50%;
+        background-repeat: no-repeat;
+    }
+
+    .contact .container .row {
+        background-size: 60%;
+        background-position: 60% 50%;
+    }
+
+    .contact .container .row h2 {
+        font-size: 60px !important;
+        margin-top: -12%;
+    }
+
+    .contact .container .row button {
+        padding: 15px 30px;
+        font-size: 15px;
+    }
+
+    .footer-container {
+        height: 300px !important;
+    }
+
+    .footer-container .social-btn {
+        padding: 5% 0;
+    }
+
+    .footer-container .social-btn i {
+        font-size: 12px !important;
+        padding: 10px !important;
+    }
+
+    .brand-details {
+        padding: 5px;
+        align-items: start;
+    }
+
+    .brand-details .contact-details {
+        height: 80%;
+    }
+
+    .brand-details .contact-details .phone .details {
+        font-size: 13px !important;
+    }
+
+    .brand-details .contact-details .email .details {
+        font-size: 11px !important;
+    }
+
+    .brand-details .contact-button .head {
+        font-size: 16px !important;
+    }
+
+    .brand-details .contact-button button {
+        font-size: 12px !important;
+        padding: 12px 20px !important;
+    }
+
+    .brand-details .footer-brand-logo figure {
+        width: 120px !important;
+        height: 60px;
+    }
+
+    .brand-details .footer-brand-logo p {
+        font-size: 11px !important;
+        width: 90%;
+    }
+}
+
+/* ===================== Devices up to 576px ==================== */
+
+@media screen and (max-width: 576px) {
+    .navbar {
+        height: 90px;
+        padding: 10px 0;
+    }
+
+    .navbar .container .nav-menu ul {
+        top: 80px !important;
+        padding: 10px;
+    }
+
+    .navbar .container .logo {
+        width: 30% !important;
+    }
+
+    .navbar .container .logo figure {
+        height: 100% !important;
+        width: 100% !important;
+        padding: 5px 0 !important;
+    }
+
+    .navbar .container .logo figure img {
+        width: 100% !important;
+        padding: 0 !important;
+    }
+
+    .navbar .container .nav-menu {
+        width: 40%;
+    }
+
+    .navbar .container .nav-menu ul li {
+        width: 18%;
+        padding: 10px;
+        border-bottom: 1px solid #dddddd;
+        text-align: left;
+    }
+
+    .banner {
+        background-position: 50% 0% !important;
+        height: 600px;
+        background-size: 50% !important;
+    }
+
+    .banner .container .row .heading{
+        width: 100% !important;
+    }
+
+    .banner .container .row .heading .sub-head {
+        font-size: 15px !important;
+    }
+
+    .banner .container .row .heading p{
+        width: 100% !important;
+    }
+
+    .banner .container .row .heading button {
+        letter-spacing: 1.5px;
+    }
+
+    h1,
+    h2 {
+        font-size: 60px !important;
+        margin-bottom: 10px;
+    }
+
+    .services {
+        background: transparent;
+    }
+
+    .services .container .row .serv-image {
+        width: 40% !important;
+    }
+
+    .services .container .row .serv-image figure {
+        width: 100% !important;
+    }
+
+    .services .container .row .serv-image figure img {
+        width: 100% !important;
+        margin-right: 15px;
+        transform: rotate(-90deg) !important;
+        margin-top: 110%;
+        position: absolute !important;
+        z-index: -1 !important;
+        filter: opacity(0.3);
+    }
+
+    .services .container .row .serv-part-2 .serv-card-layout .row .serv-card {
+        width: 50% !important;
+    }
+
+    .portfolio .container .row .heading {
+        width: 100%;
+    }
+
+    .contact {
+        height: 400px !important;
+    }
+}
+
+/* ===================== Devices up to 480px ==================== */
+
+@media screen and (max-width: 480px) {
+
+    .navbar {
+        height: 90px !important;
+    }
+
+    .navbar .container {
+        position: relative;
+    }
+
+    .navbar .container .logo {
+        height: 100% !important;
+        width: 30% !important;
+    }
+
+    .navbar .container .logo figure {
+        width: 100% !important;
+        height: 100% !important;
+        padding: 5px 0 !important;
+    }
+
+    .navbar .container .logo figure img {
+        height: 100%;
+        width: 100% !important;
+    }
+
+    .navbar .container .nav-menu ul {
+        top: 70px !important;
+    }
+
+    .navbar .container .nav-menu ul li {
+        padding-bottom: 8px !important;
+    }
+
+    .navbar .container .nav-menu ul li a {
+        width: 100%;
+        font-size: 13px;
+    }
+
+    .banner {
+        width: 100%;
+        height: 450px !important;
+        background: linear-gradient(rgba(255, 255, 255, 0.3), rgba(0, 0, 0, 0.1)), url(../img/bg-01-free-img.png) 100% 50% no-repeat;
+        background-size: 50% !important;
+        background-position: 40% 0 !important;
+    }
+
+    .banner .container .row .heading {
+        width: 100% !important;
+        margin-top: 30% !important;
+    }
+
+    .banner .container .row .heading h2 {
+        font-size: 14px !important;
+    }
+
+    .banner .container .row .heading h1 {
+        width: 100%;
+        font-size: 30px !important;
+        margin-bottom: 0 !important;
+    }
+
+    .banner .container .row .heading p {
+        width: 100% !important;
+        font-size: 12px !important;
+        margin-bottom: 20px !important;
+    }
+
+    .banner .container .row .heading button {
+        padding: 10px 20px !important;
+        font-size: 11px !important;
+    }
+
+    .about {
+        height: 600px !important;
+    }
+
+    .about .container .row .interested {
+        width: 100%;
+        height: 45% !important;
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/bg-02-free-img.jpg) 0 50% no-repeat !important;
+        background-size: cover !important;
+    }
+
+    .about .container .row .interested h3 {
+        font-size: 16px !important;
+    }
+
+    .about .container .row .interested button {
+        padding: 10px 20px !important;
+        font-size: 11px !important;
+    }
+
+    .about .container .row .heading {
+        width: 100%;
+        height: 55% !important;
+        display: flex;
+        flex-direction: column;
+        justify-content: center !important;
+        align-items: start;
+        padding: 20px !important;
+    }
+
+    .about .container .row .heading h2 {
+        font-size: 30px !important;
+    }
+
+    .about .container .row .heading p.head {
+        font-size: 12px !important;
+        width: 95% !important;
+    }
+
+    .about .container .row .heading p {
+        width: 100%;
+        font-size: 11px !important;
+    }
+
+    .services {
+        height: 700px !important;
+        background: transparent;
+    }
+
+    .services .container .row {
+        display: flex;
+        flex-direction: column;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+
+    .services .container .row .heading {
+        height: 20% !important;
+        position: relative !important;
+    }
+
+    .services .container .row .heading h2 {
+        font-size: 30px !important;
+    }
+
+    .services .container .row .serv-part-2 {
+        height: 90% !important;
+    }
+
+    .services .container .row .serv-part-2 .serv-card-layout {
+        width: 100%;
+        height: 90% !important;
+        display: flex !important;
+        flex-direction: column !important;
+        justify-content: space-between !important;
+        align-items: center !important;
+    }
+
+    .services .container .row .serv-part-2 .serv-card-layout .row {
+        width: 100%;
+        height: 100% !important;
+        display: flex;
+        flex-direction: column !important;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .services .container .row .serv-part-2 .serv-card-layout .row .serv-card {
+        width: 100% !important;
+        padding: 10px !important;
+    }
+
+    .services .container .row .serv-part-2 .serv-card-layout .row .serv-card h3 {
+        width: 100%;
+        font-size: 16px !important;
+        margin-bottom: 5px !important;
+        color: #4A4B7C;
+    }
+
+    .services .container .row .serv-part-2 .serv-card-layout .row .serv-card p {
+        width: 100% !important;
+        color: #494949;
+        line-height: 1.5;
+        font-size: 11px !important;
+    }
+
+    .portfolio {
+        height: 400px !important;
+        background-size: 40% !important;
+    }
+
+    .portfolio .container .row .heading {
+        height: 25% !important;
+        width: 100% !important;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between !important;
+        align-items: center;
+    }
+
+    .portfolio .container .row .heading h2 {
+        font-size: 30px !important;
+    }
+
+    .portfolio .container .row .heading p {
+        width: 100% !important;
+        font-size: 11px !important;
+    }
+
+    .portfolio .container .row .portfolio-part-2 {
+        height: 80% !important;
+    }
+
+    .portfolio .container .row .portfolio-part-2 .portfolio-card-layout {
+        height: 90% !important;
+        width: 90% !important;
+    }
+
+    .swiper {
+        width: 100% !important;
+        height: 80% !important;
+    }
+
+    .swiper-slide {
+        width: 30% !important;
+    }
+
+    .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+
+    .contact {
+        height: 250px !important;
+        background-size: 50%;
+        background-repeat: no-repeat;
+    }
+
+    .contact .container .row {
+        background-size: 60%;
+        background-position: 60% 50%;
+    }
+
+    .contact .container .row h2 {
+        font-size: 30px !important;
+        margin-top: -12%;
+    }
+
+    .contact .container .row button {
+        padding: 10px 20px !important;
+        font-size: 11px !important;
+    }
+
+    .footer-container {
+        height: 250px !important;
+        padding: 20px 0 !important;
+    }
+
+    .footer-container .social-btn {
+        padding: 5% 0;
+        height: 30%;
+    }
+
+    .footer-container .social-btn i {
+        font-size: 10px !important;
+        padding: 5px !important;
+    }
+
+    .brand-details {
+        padding: 15px !important;
+        align-items: start;
+    }
+
+    .brand-details .contact-details {
+        height: 70% !important;
+    }
+
+    .brand-details .contact-details .phone .sub-head {
+        font-size: 12px !important;
+        margin-bottom: 5px;
+    }
+
+    .brand-details .contact-details .phone .details {
+        font-size: 8px !important;
+    }
+
+    .brand-details .contact-details .email .sub-head {
+        font-size: 12px !important;
+        margin-bottom: 5px;
+    }
+
+    .brand-details .contact-details .email .details {
+        font-size: 6px !important;
+    }
+
+    .brand-details .contact-button .head {
+        font-size: 12px !important;
+        text-align: center;
+        line-height: 1.5;
+        margin-bottom: 10px !important;
+    }
+
+    .brand-details .contact-button button {
+        font-size: 8px !important;
+        padding: 8px 14px !important;
+    }
+
+    .brand-details .footer-brand-logo {
+        height: 60%;
+    }
+
+    .brand-details .footer-brand-logo figure {
+        margin-bottom: 5px;
+    }
+
+    .brand-details .footer-brand-logo figure {
+        width: 70px !important;
+        height: 60px;
+    }
+
+    .brand-details .footer-brand-logo p {
+        font-size: 6px !important;
+        width: 90%;
+    }
+
+    .footer-secondary {
+        height: 80px !important;
+        padding: 5px 0 !important;
+    }
+
+    .footer-secondary .container {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .footer-secondary .copy {
+        width: 50%;
+        font-size: 8px;
+        color: #494949;
+        text-align: start;
+    }
+
+    .footer-secondary p {
+        width: 50%;
+        font-size: 9px;
+        color: #494949;
+        text-align: end;
+    }
+}
+
+/* ===================== Devices up to 350px ==================== */
+
+@media screen and (max-width: 350px) {
+    .navbar {
+        width: 100% !important;
+        height: 60px !important;
+        padding: 2px 0 !important;
+    }
+
+    .navbar .container .logo {
+        width: 30% !important;
+    }
+
+    .navbar .container .logo figure {
+        height: 100% !important;
+        width: 100% !important;
+    }
+
+    .navbar .container .logo figure img {
+        width: 100% !important;
+    }
+
+    .navbar .container {
+        position: relative;
+    }
+
+    .navbar .container .nav-menu {
+        display: none;
+    }
+
+    .navbar .container .nav-menu ul {
+        width: 100%;
+        height: auto;
+        position: absolute;
+        display: block;
+        top: 60px !important;
+        left: 0;
+        background-color: white;
+    }
+
+    .navbar .container .nav-menu ul li {
+        padding-bottom: 10px;
+    }
+
+    .banner .container .row {
+        padding: 10px !important;
+    }
+
+    .banner .container .row .heading {
+        margin-top: 35% !important;
+    }
+
+    .banner .container .row .heading .sub-head {
+        font-size: 13px !important;
+        margin-bottom: 0 !important;
+    }
+
+    .banner .container .row .heading h1 {
+        font-size: 30px !important;
+    }
+
+    .banner .container .row .heading p {
+        width: 100% !important;
+    }
+
+    .about {
+        height: 600px !important;
+    }
+
+    .about .container .row .interested {
+        background-size: cover !important;
+        height: 30%;
+    }
+
+    .about .container .row .heading {
+        height: 70% !important;
+        display: flex;
+        flex-direction: column;
+        justify-content: start !important;
+        align-items: start;
+    }
+
+    .about .container .row .heading h2 {
+        width: 100%;
+        margin-bottom: 10px !important;
+    }
+
+    .portfolio .container .row .heading {
+        height: 30% !important;
+    }
+
+    .portfolio .container .row .portfolio-part-2 {
+        height: 70% !important;
+    }
+}
